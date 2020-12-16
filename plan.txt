@@ -1,0 +1,7 @@
+name (subclass) :{type-of-fields}
+
+point | vector : {list<float>}
+metric | dist : {lambda< <distance function> >}
+space : {list<point>, metric}
+clusters : {space, list<points< <centroids> >>}
+Centroid | Agglomerative (clusters) : {}
