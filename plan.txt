@@ -3,3 +3,4 @@ name (subclass) = {type-of-fields} : {key-methods}
 point | vector = {list<float>} : {}
 metric | dist = {lambda< <distance function> >} : {}
 space = {list<point>, metric} : {}
+
