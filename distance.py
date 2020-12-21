@@ -9,3 +9,11 @@ def Maximum(x, y):
     for i in range(len(x)):
         tab.append(abs(x[i]-y[i]))
     return max(tab)
+
+
+distan = {
+    "Euklidean": lambda x, y: Minkowski(x, y, 2),
+    "Minkowski": lambda x, y, p: Minkowski(x, y, p),
+    "Manhattan": lambda x, y: Minkowski(x, y, 1),
+    "Maximum": lambda x, y: Maximum(x, y)
+}
