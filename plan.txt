@@ -4,3 +4,5 @@ point | vector = {list<float>} : {}
 metric | dist = {lambda< <distance function> >} : {}
 space = {list<point>, metric} : {}
 
+space.add_data(array)
+space.fit(metrics, distace, k)
