@@ -1,1 +1,4 @@
 /.vscode
+
+# generated stuff
+*.json
